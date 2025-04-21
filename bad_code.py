@@ -5,4 +5,4 @@ def insecure_function():
     os.system(user_input)  # <-- 這會被 CodeQL 掃出問題
 
 insecure_function()
-
+secure
